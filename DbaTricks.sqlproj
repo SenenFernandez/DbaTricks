@@ -58,8 +58,10 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="SQLServer" />
+    <Folder Include="SQLServer\Performance" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SQLServer\PrimeNumbers.sql" />
+    <None Include="SQLServer\Performance\CreateMissingIndex.sql" />
   </ItemGroup>
 </Project>
