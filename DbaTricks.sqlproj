@@ -61,11 +61,13 @@
     <Folder Include="SQLServer\Performance" />
     <Folder Include="SQLServer\Backup" />
     <Folder Include="SQLServer\Storage" />
+    <Folder Include="SQLServer\Search" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SQLServer\PrimeNumbers.sql" />
     <None Include="SQLServer\Performance\CreateMissingIndex.sql" />
     <None Include="SQLServer\Backup\LastBackupReport.sql" />
     <None Include="SQLServer\Storage\CheckFreeSpace.sql" />
+    <None Include="SQLServer\Search\SearchText.sql" />
   </ItemGroup>
 </Project>
