@@ -1,4 +1,4 @@
-﻿ SELECT T1.name AS [Database]
+﻿SELECT T1.name AS [Database]
 	, ISNULL(T2.physical_device_name, 'DANGER!!!') AS [Backup]
 	, T2.backup_size AS [Size]
 	, T2.backup_start_date AS [StartDate]

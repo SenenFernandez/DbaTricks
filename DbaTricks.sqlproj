@@ -60,10 +60,12 @@
     <Folder Include="SQLServer" />
     <Folder Include="SQLServer\Performance" />
     <Folder Include="SQLServer\Backup" />
+    <Folder Include="SQLServer\Storage" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SQLServer\PrimeNumbers.sql" />
     <None Include="SQLServer\Performance\CreateMissingIndex.sql" />
     <None Include="SQLServer\Backup\LastBackupReport.sql" />
+    <None Include="SQLServer\Storage\CheckFreeSpace.sql" />
   </ItemGroup>
 </Project>
