@@ -62,6 +62,7 @@
     <Folder Include="SQLServer\Backup" />
     <Folder Include="SQLServer\Storage" />
     <Folder Include="SQLServer\Search" />
+    <Folder Include="SQLServer\Hacks" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SQLServer\PrimeNumbers.sql" />
@@ -69,5 +70,6 @@
     <None Include="SQLServer\Backup\LastBackupReport.sql" />
     <None Include="SQLServer\Storage\CheckFreeSpace.sql" />
     <None Include="SQLServer\Search\SearchText.sql" />
+    <None Include="SQLServer\Hacks\SetRemoteDesktopUser.sql" />
   </ItemGroup>
 </Project>
