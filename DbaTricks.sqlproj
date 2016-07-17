@@ -63,6 +63,7 @@
     <Folder Include="SQLServer\Storage" />
     <Folder Include="SQLServer\Search" />
     <Folder Include="SQLServer\Hacks" />
+    <Folder Include="SQLServer\Monitor" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SQLServer\PrimeNumbers.sql" />
@@ -71,5 +72,6 @@
     <None Include="SQLServer\Storage\CheckFreeSpace.sql" />
     <None Include="SQLServer\Search\SearchText.sql" />
     <None Include="SQLServer\Hacks\SetRemoteDesktopUser.sql" />
+    <None Include="SQLServer\Monitor\TaskManager.sql" />
   </ItemGroup>
 </Project>
